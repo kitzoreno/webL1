@@ -1,0 +1,73 @@
+<!doctype html>
+
+<head>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="contact.html">Contact</a>
+            <a href="shoppingcart.html">Cart</a>
+        </nav>
+
+        <img class="logo" src="images/logo.png" id="logo" alt="logo">
+
+
+    </header>
+    <div class="bodyA">   <!-- Links all the codes together inside .bodyA, instead of using header or body or section, i used a div class -->
+        <div class="containerA"> <!-- ContainerA is box/container where everything is coded in into the box: Input Type - Email Address  -->
+            <div class="formBx"> <!-- This is where you type all of your details in so the company can read it -->
+                <form>
+                    <h2>Contact Us</h2>
+                    <div class="inputBox">
+                        <input type="text" required="required"> <!-- Fill out bar for name -->
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" required="required"> <!-- Fill out bar for email -->
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea> <!-- Fill out bar for message -->
+                        <span>Type Your Message Here...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">  <!-- Send button, you cant send until email, what you want to message the company, and full name are typed in  -->
+                    </div>
+                </form>
+            </div>
+            <div class="imgFx"> </div>
+                <img src="images/girl.png" alt="girl"> <!-- Photo of the girl in contacts -->
+        </div>
+    </div>
+    <div class="containerD">
+        <div class="contactinfo">
+            <div class="boxQ">
+                <div class="icon"></div>
+                <div class="textQ">
+                    <h3>Address</h3>     <!-- Address for the company -->
+                    <p>233  Gloucester Park Road,<br>One Tree Hill, Auckland<br>1061</p>
+                </div>
+            </div>
+                    <div class="boxQ">
+                        <div class="icon"></div>
+                        <div class="textQ">
+                            <h3>Phone</h3> <!-- Companies phone number -->
+                            <p>(027) 3901-211</p>
+                        </div>
+                    </div>
+                    <div class="boxQ">
+                        <div class="icon"></div> <!-- icons for email, phone and address -->
+                        <div class="textQ">
+                            <h3>Email</h3>    <!-- Ceo's email -->
+                            <p>Traelongg@gmail.com</p>
+                        </div>
+                    </div>
+         </div>
+   </div>
+</body>
